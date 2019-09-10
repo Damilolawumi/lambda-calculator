@@ -4,9 +4,9 @@ const SpecialButton = (props) => {
   return (
     <button>
       {/* Display a button element rendering the data being passed down from the parent container on props */}
-    {props.numbers}
+      {props.specialButton}
     </button>
   );
 };
 
-export {SpecialButton}
+export { SpecialButton }
