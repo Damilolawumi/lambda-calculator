@@ -1,4 +1,5 @@
 import React from "react";
+import {Numbers} from './NumberButton.js' //imported the numbers
 
 //import any components needed
 
