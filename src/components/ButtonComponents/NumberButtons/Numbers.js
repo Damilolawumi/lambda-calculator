@@ -1,5 +1,5 @@
 import React from "react";
-import {Numbers} from './NumberButton.js' //imported the numbers
+import {NumberButton} from './NumberButton.js' //imported the numbers
 
 //import any components needed
 
@@ -7,6 +7,7 @@ import {Numbers} from './NumberButton.js' //imported the numbers
 
 const Numbers = () => {
   // STEP 2 - add the imported data to state
+  const [numberState, setNumberState] = useState(numbers);
   return (
     <div>
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
