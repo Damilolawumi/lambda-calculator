@@ -7,7 +7,7 @@ const Logo = () => {
     <div className="logo-container">
       <img className="logo" src={logo} alt="Lambda's logo" />
     </div>
-  );
+  );        
 };
 
 export default Logo;
